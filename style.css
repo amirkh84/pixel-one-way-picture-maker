@@ -44,10 +44,10 @@ button:nth-child(1) {
     color: #e2e2e2;
 }
 button:nth-child(2) {
-    background: linear-gradient(to bottom left ,yellow,purple);
-    color: #e2e2e2;
+    background-color: rgb(226, 214, 43);
+    color: #3a3a3a;
 }
 button:nth-child(3) {
-    background-color: #ff822f;
-    color: #313131;
+    background-color: #ff3c35;
+    color: #e6e6e6;
 }
