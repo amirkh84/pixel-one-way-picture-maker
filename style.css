@@ -24,26 +24,30 @@ body {
     flex-wrap: wrap;
     align-content: flex-start;
     border-radius: 10px;
+    overflow: hidden;
 }
 .parts {
     width: 10%;
     height: 10%;
 }
-.change {
+button {
     margin-top: 10px;
     border: none;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     background-color: #5070ff;
     font-size: 25px;
     color: cornsilk;
 }
-.add {
-    margin-top: 10px;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #5070ff;
-    font-size: 25px;
-    color: cornsilk;
+button:nth-child(1) {
+    background-color: #442fff;
+    color: #e2e2e2;
+}
+button:nth-child(2) {
+    background: linear-gradient(to bottom left ,yellow,purple);
+    color: #e2e2e2;
+}
+button:nth-child(3) {
+    background-color: #ff822f;
+    color: #313131;
 }
